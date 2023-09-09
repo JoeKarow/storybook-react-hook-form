@@ -89,8 +89,8 @@ devDependencies:
     specifier: ^7.46.1
     version: 7.46.1(react@18.2.0)
   rimraf:
-    specifier: ^3.0.2
-    version: 3.0.2
+    specifier: ^5.0.0
+    version: 5.0.1
   storybook:
     specifier: ^7.4.0
     version: 7.4.0
@@ -8022,6 +8022,14 @@ packages:
     hasBin: true
     dependencies:
       glob: 7.2.3
+    dev: true
+
+  /rimraf@5.0.1:
+    resolution: {integrity: sha512-OfFZdwtd3lZ+XZzYP/6gTACubwFcHdLRqS9UX3UwpU2dnGQYkPFISRwvM3w9IiB2w7bW5qGo/uAwE4SmXXSKvg==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dependencies:
+      glob: 10.3.4
     dev: true
 
   /rollup@3.29.0:
