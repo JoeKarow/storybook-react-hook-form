@@ -42,10 +42,10 @@ devDependencies:
     version: 7.4.0(react-dom@18.2.0)(react@18.2.0)
   '@storybook/react':
     specifier: ^7.4.0
-    version: 7.4.0(react-dom@18.2.0)(react@18.2.0)(typescript@4.9.5)
+    version: 7.4.0(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)
   '@storybook/react-vite':
     specifier: ^7.4.0
-    version: 7.4.0(react-dom@18.2.0)(react@18.2.0)(typescript@4.9.5)(vite@4.4.9)
+    version: 7.4.0(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(vite@4.4.9)
   '@storybook/testing-library':
     specifier: 0.0.14-next.2
     version: 0.0.14-next.2
@@ -60,7 +60,7 @@ devDependencies:
     version: 3.1.0(vite@4.4.9)
   auto:
     specifier: ^10.46.0
-    version: 10.46.0(@types/node@18.17.14)(typescript@4.9.5)
+    version: 10.46.0(@types/node@18.17.14)(typescript@5.2.2)
   boxen:
     specifier: ^5.0.1
     version: 5.1.2
@@ -99,10 +99,10 @@ devDependencies:
     version: 2.2.0
   tsup:
     specifier: ^6.7.0
-    version: 6.7.0(typescript@4.9.5)
+    version: 6.7.0(typescript@5.2.2)
   typescript:
-    specifier: ^4.9.5
-    version: 4.9.5
+    specifier: ^5.0.0
+    version: 5.2.2
   vite:
     specifier: ^4.4.9
     version: 4.4.9(@types/node@18.17.14)
@@ -125,7 +125,7 @@ packages:
     engines: {node: '>=10.x'}
     dev: true
 
-  /@auto-it/core@10.46.0(@types/node@18.17.14)(typescript@4.9.5):
+  /@auto-it/core@10.46.0(@types/node@18.17.14)(typescript@5.2.2):
     resolution: {integrity: sha512-68jWcUuQBFCjgUvEWa64ENeRPULFYiaFpo37H6SUuLcZ2XBD+Bt4Y0yqHWjs6F5g19S7pzOYe25SxWf+U0J4LQ==}
     peerDependencies:
       '@types/node': '*'
@@ -135,7 +135,7 @@ packages:
         optional: true
     dependencies:
       '@auto-it/bot-list': 10.46.0
-      '@endemolshinegroup/cosmiconfig-typescript-loader': 3.0.2(cosmiconfig@7.0.0)(typescript@4.9.5)
+      '@endemolshinegroup/cosmiconfig-typescript-loader': 3.0.2(cosmiconfig@7.0.0)(typescript@5.2.2)
       '@octokit/core': 3.6.0
       '@octokit/plugin-enterprise-compatibility': 1.3.0
       '@octokit/plugin-retry': 3.0.9
@@ -170,10 +170,10 @@ packages:
       tapable: 2.2.1
       terminal-link: 2.1.1
       tinycolor2: 1.6.0
-      ts-node: 10.9.1(@types/node@18.17.14)(typescript@4.9.5)
+      ts-node: 10.9.1(@types/node@18.17.14)(typescript@5.2.2)
       tslib: 2.1.0
       type-fest: 0.21.3
-      typescript: 4.9.5
+      typescript: 5.2.2
       typescript-memoize: 1.1.1
       url-join: 4.0.1
     transitivePeerDependencies:
@@ -183,10 +183,10 @@ packages:
       - supports-color
     dev: true
 
-  /@auto-it/npm@10.46.0(@types/node@18.17.14)(typescript@4.9.5):
+  /@auto-it/npm@10.46.0(@types/node@18.17.14)(typescript@5.2.2):
     resolution: {integrity: sha512-hvwXxRJE70ay4/CMEDtILZvefXqmo+jp/w8FEu4Bo1Kq96AREfH9cO+mgj1nPon5yg353SCcupGV3OyoZt18iw==}
     dependencies:
-      '@auto-it/core': 10.46.0(@types/node@18.17.14)(typescript@4.9.5)
+      '@auto-it/core': 10.46.0(@types/node@18.17.14)(typescript@5.2.2)
       '@auto-it/package-json-utils': 10.46.0
       await-to-js: 3.0.0
       endent: 2.1.0
@@ -217,11 +217,11 @@ packages:
       parse-github-url: 1.0.2
     dev: true
 
-  /@auto-it/released@10.46.0(@types/node@18.17.14)(typescript@4.9.5):
+  /@auto-it/released@10.46.0(@types/node@18.17.14)(typescript@5.2.2):
     resolution: {integrity: sha512-U0XYvkcPoO4c4WiJz6PQ8jUOMEH1EjxXRGyvaaZWfZOtr2vquvGDIAs6ntekURcNs75H780K49es18mTLgz9/g==}
     dependencies:
       '@auto-it/bot-list': 10.46.0
-      '@auto-it/core': 10.46.0(@types/node@18.17.14)(typescript@4.9.5)
+      '@auto-it/core': 10.46.0(@types/node@18.17.14)(typescript@5.2.2)
       deepmerge: 4.3.1
       fp-ts: 2.16.1
       io-ts: 2.2.20(fp-ts@2.16.1)
@@ -235,10 +235,10 @@ packages:
       - typescript
     dev: true
 
-  /@auto-it/version-file@10.46.0(@types/node@18.17.14)(typescript@4.9.5):
+  /@auto-it/version-file@10.46.0(@types/node@18.17.14)(typescript@5.2.2):
     resolution: {integrity: sha512-V5HEQyGHPCFzH8Fj7RlBebgZ83P0QYXpNTtzPF6az4NLoNvaeZmqkirhx7WEasggVvyfX56GlM6df5jwXXfi7g==}
     dependencies:
-      '@auto-it/core': 10.46.0(@types/node@18.17.14)(typescript@4.9.5)
+      '@auto-it/core': 10.46.0(@types/node@18.17.14)(typescript@5.2.2)
       fp-ts: 2.16.1
       io-ts: 2.2.20(fp-ts@2.16.1)
       semver: 7.5.4
@@ -1698,7 +1698,7 @@ packages:
     resolution: {integrity: sha512-EsBwpc7hBUJWAsNPBmJy4hxWx12v6bshQsldrVmjxJoc3isbxhOrF2IcCpaXxfvq03NwkI7sbsOLXbYuqF/8Ww==}
     dev: false
 
-  /@endemolshinegroup/cosmiconfig-typescript-loader@3.0.2(cosmiconfig@7.0.0)(typescript@4.9.5):
+  /@endemolshinegroup/cosmiconfig-typescript-loader@3.0.2(cosmiconfig@7.0.0)(typescript@5.2.2):
     resolution: {integrity: sha512-QRVtqJuS1mcT56oHpVegkKBlgtWjXw/gHNWO3eL9oyB5Sc7HBoc2OLG/nYpVfT/Jejvo3NUrD0Udk7XgoyDKkA==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
@@ -1707,7 +1707,7 @@ packages:
       cosmiconfig: 7.0.0
       lodash.get: 4.4.2
       make-error: 1.3.6
-      ts-node: 9.1.1(typescript@4.9.5)
+      ts-node: 9.1.1(typescript@5.2.2)
       tslib: 2.6.2
     transitivePeerDependencies:
       - typescript
@@ -2215,7 +2215,7 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@joshwooding/vite-plugin-react-docgen-typescript@0.2.1(typescript@4.9.5)(vite@4.4.9):
+  /@joshwooding/vite-plugin-react-docgen-typescript@0.2.1(typescript@5.2.2)(vite@4.4.9):
     resolution: {integrity: sha512-ou4ZJSXMMWHqGS4g8uNRbC5TiTWxAgQZiVucoUrOCWuPrTbkpJbmVyIi9jU72SBry7gQtuMEDp4YR8EEXAg7VQ==}
     peerDependencies:
       typescript: '>= 4.3.x'
@@ -2227,8 +2227,8 @@ packages:
       glob: 7.2.3
       glob-promise: 4.2.2(glob@7.2.3)
       magic-string: 0.27.0
-      react-docgen-typescript: 2.2.2(typescript@4.9.5)
-      typescript: 4.9.5
+      react-docgen-typescript: 2.2.2(typescript@5.2.2)
+      typescript: 5.2.2
       vite: 4.4.9(@types/node@18.17.14)
     dev: true
 
@@ -3368,7 +3368,7 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/builder-vite@7.4.0(typescript@4.9.5)(vite@4.4.9):
+  /@storybook/builder-vite@7.4.0(typescript@5.2.2)(vite@4.4.9):
     resolution: {integrity: sha512-2hE+Q5zoSFQvmiPKsRaZWUX5v6vRaSp0+kgZo3EOg0DvAACiC/Cd+sdnv7wxigvSnVRMbWvBVguPyePRjke8KA==}
     peerDependencies:
       '@preact/preset-vite': '*'
@@ -3402,7 +3402,7 @@ packages:
       remark-external-links: 8.0.0
       remark-slug: 6.1.0
       rollup: 3.29.0
-      typescript: 4.9.5
+      typescript: 5.2.2
       vite: 4.4.9(@types/node@18.17.14)
     transitivePeerDependencies:
       - encoding
@@ -3742,7 +3742,7 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: true
 
-  /@storybook/react-vite@7.4.0(react-dom@18.2.0)(react@18.2.0)(typescript@4.9.5)(vite@4.4.9):
+  /@storybook/react-vite@7.4.0(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(vite@4.4.9):
     resolution: {integrity: sha512-ps1FUyD2j0plCSprBI8z6RvavMvcDarIMFNofV48vSjVFzenRmgJfSbYywTnw7NusplJyZlYqldHreDzwVX1dQ==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -3750,10 +3750,10 @@ packages:
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
       vite: ^3.0.0 || ^4.0.0
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': 0.2.1(typescript@4.9.5)(vite@4.4.9)
+      '@joshwooding/vite-plugin-react-docgen-typescript': 0.2.1(typescript@5.2.2)(vite@4.4.9)
       '@rollup/pluginutils': 5.0.4
-      '@storybook/builder-vite': 7.4.0(typescript@4.9.5)(vite@4.4.9)
-      '@storybook/react': 7.4.0(react-dom@18.2.0)(react@18.2.0)(typescript@4.9.5)
+      '@storybook/builder-vite': 7.4.0(typescript@5.2.2)(vite@4.4.9)
+      '@storybook/react': 7.4.0(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)
       '@vitejs/plugin-react': 3.1.0(vite@4.4.9)
       ast-types: 0.14.2
       magic-string: 0.30.3
@@ -3770,7 +3770,7 @@ packages:
       - vite-plugin-glimmerx
     dev: true
 
-  /@storybook/react@7.4.0(react-dom@18.2.0)(react@18.2.0)(typescript@4.9.5):
+  /@storybook/react@7.4.0(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2):
     resolution: {integrity: sha512-QWsFw/twsNkcWI6brW06sugQQ5dV+fJm4IrEeI28cA4cBHK9G9HKOwCHoXDUWikzZx48XYMpNfs/WyIkuGmEqg==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -3803,7 +3803,7 @@ packages:
       react-element-to-jsx-string: 15.0.0(react-dom@18.2.0)(react@18.2.0)
       ts-dedent: 2.2.0
       type-fest: 2.19.0
-      typescript: 4.9.5
+      typescript: 5.2.2
       util-deprecate: 1.0.2
     transitivePeerDependencies:
       - encoding
@@ -4423,15 +4423,15 @@ packages:
     engines: {node: '>=0.8'}
     dev: true
 
-  /auto@10.46.0(@types/node@18.17.14)(typescript@4.9.5):
+  /auto@10.46.0(@types/node@18.17.14)(typescript@5.2.2):
     resolution: {integrity: sha512-LUsn5SWyM6Qdz2i1h4YyDpBYlOUQ0Z+ZcQhDTu8DLLoUuUP4cGf79MCdpRpM1LQVbkqZ2WWi8s/QM4it/FmRjw==}
     engines: {node: '>=10.x'}
     hasBin: true
     dependencies:
-      '@auto-it/core': 10.46.0(@types/node@18.17.14)(typescript@4.9.5)
-      '@auto-it/npm': 10.46.0(@types/node@18.17.14)(typescript@4.9.5)
-      '@auto-it/released': 10.46.0(@types/node@18.17.14)(typescript@4.9.5)
-      '@auto-it/version-file': 10.46.0(@types/node@18.17.14)(typescript@4.9.5)
+      '@auto-it/core': 10.46.0(@types/node@18.17.14)(typescript@5.2.2)
+      '@auto-it/npm': 10.46.0(@types/node@18.17.14)(typescript@5.2.2)
+      '@auto-it/released': 10.46.0(@types/node@18.17.14)(typescript@5.2.2)
+      '@auto-it/version-file': 10.46.0(@types/node@18.17.14)(typescript@5.2.2)
       await-to-js: 3.0.0
       chalk: 4.1.2
       command-line-application: 0.10.1
@@ -7650,12 +7650,12 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
 
-  /react-docgen-typescript@2.2.2(typescript@4.9.5):
+  /react-docgen-typescript@2.2.2(typescript@5.2.2):
     resolution: {integrity: sha512-tvg2ZtOpOi6QDwsb3GZhOjDkkX0h8Z2gipvTg6OVMUyoYoURhEiRNePT8NZItTVCDh39JJHnLdfCOkzoLbFnTg==}
     peerDependencies:
       typescript: '>= 4.3.x'
     dependencies:
-      typescript: 4.9.5
+      typescript: 5.2.2
     dev: true
 
   /react-docgen@6.0.0-alpha.3:
@@ -8614,7 +8614,7 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /ts-node@10.9.1(@types/node@18.17.14)(typescript@4.9.5):
+  /ts-node@10.9.1(@types/node@18.17.14)(typescript@5.2.2):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -8640,12 +8640,12 @@ packages:
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 4.9.5
+      typescript: 5.2.2
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     dev: true
 
-  /ts-node@9.1.1(typescript@4.9.5):
+  /ts-node@9.1.1(typescript@5.2.2):
     resolution: {integrity: sha512-hPlt7ZACERQGf03M253ytLY3dHbGNGrAq9qIHWUY9XHYl1z7wYngSr3OQ5xmui8o2AaxsONxIzjafLUiWBo1Fg==}
     engines: {node: '>=10.0.0'}
     hasBin: true
@@ -8657,7 +8657,7 @@ packages:
       diff: 4.0.2
       make-error: 1.3.6
       source-map-support: 0.5.21
-      typescript: 4.9.5
+      typescript: 5.2.2
       yn: 3.1.1
     dev: true
 
@@ -8676,7 +8676,7 @@ packages:
   /tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
 
-  /tsup@6.7.0(typescript@4.9.5):
+  /tsup@6.7.0(typescript@5.2.2):
     resolution: {integrity: sha512-L3o8hGkaHnu5TdJns+mCqFsDBo83bJ44rlK7e6VdanIvpea4ArPcU3swWGsLVbXak1PqQx/V+SSmFPujBK+zEQ==}
     engines: {node: '>=14.18'}
     hasBin: true
@@ -8706,7 +8706,7 @@ packages:
       source-map: 0.8.0-beta.0
       sucrase: 3.29.0
       tree-kill: 1.2.2
-      typescript: 4.9.5
+      typescript: 5.2.2
     transitivePeerDependencies:
       - supports-color
       - ts-node
@@ -8765,9 +8765,9 @@ packages:
     resolution: {integrity: sha512-GQ90TcKpIH4XxYTI2F98yEQYZgjNMOGPpOgdjIBhaLaWji5HPWlRnZ4AeA1hfBxtY7bCGDJsqDDHk/KaHOl5bA==}
     dev: true
 
-  /typescript@4.9.5:
-    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
-    engines: {node: '>=4.2.0'}
+  /typescript@5.2.2:
+    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
+    engines: {node: '>=14.17'}
     hasBin: true
     dev: true
 
