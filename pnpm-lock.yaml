@@ -53,7 +53,7 @@ devDependencies:
     specifier: ^18.17.14
     version: 18.17.14
   '@types/react':
-    specifier: ^18.2.21
+    specifier: 18.2.21
     version: 18.2.21
   '@vitejs/plugin-react':
     specifier: ^3.1.0
