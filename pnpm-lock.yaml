@@ -107,8 +107,8 @@ devDependencies:
     specifier: ^4.4.9
     version: 4.4.9(@types/node@18.17.14)
   zx:
-    specifier: ^1.14.1
-    version: 1.15.2
+    specifier: ^8.0.0
+    version: 8.8.5
 
 packages:
 
@@ -9264,16 +9264,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  /zx@1.15.2:
-    resolution: {integrity: sha512-UvltPAK8alQ7YXxOZDWCR3m4LppUmOpB3ZpJvc4NL0YEZDikLhC9jd1pnB4Fze/4OcmF3Xff6kK+6DKeqH1efA==}
-    engines: {node: '>= 15.0.0'}
+  /zx@8.8.5:
+    resolution: {integrity: sha512-SNgDF5L0gfN7FwVOdEFguY3orU5AkfFZm9B5YSHog/UDHv+lvmd82ZAsOenOkQixigwH2+yyH198AwNdKhj+RA==}
+    engines: {node: '>= 12.17.0'}
     hasBin: true
-    dependencies:
-      '@types/node': 16.18.48
-      '@types/node-fetch': 2.6.4
-      chalk: 4.1.2
-      node-fetch: 2.7.0
-      which: 2.0.2
-    transitivePeerDependencies:
-      - encoding
     dev: true
