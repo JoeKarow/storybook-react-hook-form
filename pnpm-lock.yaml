@@ -65,8 +65,8 @@ devDependencies:
     specifier: ^5.0.1
     version: 5.1.2
   dedent:
-    specifier: ^0.7.0
-    version: 0.7.0
+    specifier: ^1.0.0
+    version: 1.7.2
   npm-run-all:
     specifier: ^4.1.5
     version: 4.1.5
@@ -5048,6 +5048,15 @@ packages:
 
   /dedent@0.7.0:
     resolution: {integrity: sha512-Q6fKUPqnAHAyhiUgFU7BUzLiv0kd8saH9al7tnu5Q/okj6dnupxyTgFIBjVzJATdfIAm9NAsvXNzjaKa+bxVyA==}
+    dev: true
+
+  /dedent@1.7.2:
+    resolution: {integrity: sha512-WzMx3mW98SN+zn3hgemf4OzdmyNhhhKz5Ay0pUfQiMQ3e1g+xmTJWp/pKdwKVXhdSkAEGIIzqeuWrL3mV/AXbA==}
+    peerDependencies:
+      babel-plugin-macros: ^3.1.0
+    peerDependenciesMeta:
+      babel-plugin-macros:
+        optional: true
     dev: true
 
   /deep-equal@2.2.0:
