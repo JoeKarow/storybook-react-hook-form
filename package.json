@@ -58,7 +58,7 @@
     "@storybook/addon-links": "^7.4.0",
     "@storybook/react": "^7.4.0",
     "@storybook/react-vite": "^7.4.0",
-    "@storybook/testing-library": "0.0.14-next.2",
+    "@storybook/testing-library": "0.2.2",
     "@types/node": "^18.17.14",
     "@types/react": "^18.2.21",
     "@vitejs/plugin-react": "^3.1.0",
@@ -69,9 +69,9 @@
     "prettier": "^2.8.8",
     "prompts": "^2.4.2",
     "prop-types": "^15.8.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-hook-form": "^7.46.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.87.0",
     "rimraf": "^3.0.2",
     "storybook": "^7.4.0",
     "ts-dedent": "^2.2.0",
@@ -111,6 +111,6 @@
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
   },
   "dependencies": {
-    "@hookform/devtools": "^4.3.1"
+    "@hookform/devtools": "^4.4.0"
   }
 }
